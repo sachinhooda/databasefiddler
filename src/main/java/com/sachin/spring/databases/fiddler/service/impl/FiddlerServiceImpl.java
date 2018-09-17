@@ -30,7 +30,8 @@ public class FiddlerServiceImpl implements FiddlerService {
 
 	@Autowired
 	private LibraryRepository libraryRepository;
-
+	
+	
 	public Author getAuthorByEmail(String email) {
 		return authorRepository.findByEmail(email);
 	}
